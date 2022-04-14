@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Agency | Space - Multipurpose Responsive Template</title>
+    <title>Agency | E-dev Technologies</title>
 
     <!--ajout de bootstrap-->
-
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./favicon.ico">
@@ -35,32 +34,39 @@
                 <li class="nav-item"><a class="nav-link px-3" href="index.html">Acceuil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="service.html">Services</a>
+                    <a class="nav-link px-3" href="#service_bas">Services</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="hs-has-mega-menu nav-item dropdown"
+                    data-hs-mega-menu-item-options='{"desktop": {"maxWidth": "30rem"}}'>
                     <a id="formationmegamenu"
                         class="hs-mega-menu-invoker nav-link px-3 dropdown-toggle @@if(category=='Formations'){active}"
                         aria-current="page" href="#" role="button" aria-expanded="false"
                         data-toggle="dropdown">Formations</a>
-                    <div class="hs-mega-menu hs-position-right-fix dropdown-menu" aria-labelledby="formationmegamenu"
-                        style="min-width: 30rem;">
-                        <div class="navbar-dropdown-menu-inner">
-                            <div class="row">
-                                <div class="col-sm mb-3 mb-sm-0"></div>
-                                <a class="dropdown-item" href="form-entreprise.html">Formation en
-                                    Enterprise</a>
-                                <a class="dropdown-item" href="form-interne.html">Formation Interne</a>
-                                <a class="dropdown-item" href="macertif.html">MACERTIF</a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                    <ul class="dropdown-menu multi" aria-labelledby="navbarDropdown">
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="">Formation en
+                                Entreprise</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="">Formation en
+                                Interne</a></li>
+                        <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="">MACERTIF</a></li>
+                    </ul>
+
                 </li>
+                <li class="nav-item"><a class="nav-link px-3" href="apropos.html">A propos</a></li>
                 <li class="nav-item"><a class="nav-link px-3" href="contact.html">Contact</a></li>
             </ul>
             <ul class="navbar-nav" style="margin-left: auto;">
-                <li class="nav-item"><a class="nav-link px-3" href="">Connexion</a></li>
-                <li class="nav-item bg-success"><a class="nav-link px-3 text-white" href="">Inscription</a>
+                <li class="nav-item"><a class="js-animation-link btn btn-ghost-secondary btn-no-focus me-2 me-lg-0"
+                        role="button" data-bs-toggle="modal" data-bs-target="#signupModal"
+                        data-hs-show-animation-options='{
+                            "targetSelector": "#signupModalFormLogin",
+                            "groupName": "idForm"
+                          }' href="page_login.html">Connexion</a></li>
+                <li class="nav-item bg-success border rounded"><a
+                        class="js-animation-link d-none d-lg-inline-block btn btn-primary" role="button"
+                        data-bs-toggle="modal" data-bs-target="#signupModal" data-hs-show-animation-options='{
+                            "targetSelector": "#signupModalFormSignup",
+                            "groupName": "idForm"
+                          }' href="page-signup.html"><i class="bi-person-circle me-1"></i>Inscription</a>
                 </li>
             </ul>
         </nav>
@@ -92,7 +98,7 @@
                                           "backDelay": 2500
                                         }'></span>
                                 </span></h2>
-                            <p class="lead text-white-70">One theme for all your projects.</p>
+                            <p class="lead text-white-70">Un accompagnement sur mesure.</p>
                         </div>
                         <!-- End Heading -->
 
@@ -117,23 +123,22 @@
             <div class="bg-primary-dark content-space-1">
                 <div class="row">
                     <div class="col-md mb-5 mb-md-0">
-                        <span class="h3 text-white">#1 most selling author of GetBootstrap</span>
+                        <span class="h3 text-white">#1 plateforme d'accompagnement </span>
                     </div>
                     <!-- End Col -->
 
                     <div class="col-sm mb-3 mb-sm-0">
                         <div class="px-sm-3">
-                            <span class="h3 text-white">45k+</span>
-                            <p class="fs-6 text-white-70">clients from freelancers to corporate companies</p>
+                            <span class="h3 text-white">+ de 200</span>
+                            <p class="fs-6 text-white-70">jeunes entrepreneurs impactés</p>
                         </div>
                     </div>
                     <!-- End Col -->
 
                     <div class="col-sm">
                         <div class="px-sm-3">
-                            <span class="h3 text-white">12k+</span>
-                            <p class="fs-6 text-white-70">resolved all kinds of questions and inquiries over the last 8
-                                years</p>
+                            <span class="h3 text-white">+ de 20</span>
+                            <p class="fs-6 text-white-70">jeunes entrepreneurs accompagnés</p>
                         </div>
                     </div>
                     <!-- End Col -->
@@ -149,9 +154,13 @@
         <div id="scrollToContent" class="container content-space-t-1 content-space-t-md-3">
             <!-- Heading -->
             <div class="w-lg-65 mb-7">
-                <span class="text-cap">Built-in access</span>
-                <h3>Add new lines of business with Space’s features</h3>
-                <p class="fs-6">One theme for your all projects.</p>
+                <span class="text-cap">ACCES INTEGRE</span>
+                <h3>A chacun son accompagnement</h3>
+                <p class="fs-6">Inov’E-DEV est l’incubateur de la société E-DEV Technologies. Nous accueillons et
+                    accompagnons les jeunes porteurs de projet. Nous accompagnons les projets qui intègrent
+                    l’utilisation de nouvelles technologies dans leur solution. Nous accompagnons aussi les
+                    entreprises dans leur phase de croissance à travers diverses prestations.
+                </p>
             </div>
             <!-- End Heading -->
 
@@ -161,9 +170,9 @@
                     <div class="step-content-wrapper">
                         <span class="step-icon step-icon-soft-primary">1</span>
                         <div class="step-content">
-                            <h6 class="step-title">Less routine - more creativity</h6>
-                            <p class="step-text">This is where we really begin to visualize your napkin sketches and
-                                make them into beautiful pixels.</p>
+                            <h6 class="step-title">Porteur de projet - Start up</h6>
+                            <p class="step-text">Nous offrons un service d'accompagnement aux porteurs de projet pour
+                                les aider à concrétiser leur projet</p>
                             <a class="link" href="#">Services <i class="bi-chevron-right small ms-1"></i></a>
                         </div>
                     </div>
@@ -173,9 +182,9 @@
                     <div class="step-content-wrapper">
                         <span class="step-icon step-icon-soft-primary">2</span>
                         <div class="step-content">
-                            <h6 class="step-title">Scale budget efficiently</h6>
-                            <p class="step-text">Now that we've aligned the details, it's time to get things mapped out
-                                and organized.</p>
+                            <h6 class="step-title">Start up - Entreprises</h6>
+                            <p class="step-text">Nous permettons aux start up et entreprises de mieux structurer leur
+                                offre afin de faire face aux contraintes du marché</p>
                             <a class="link" href="#">Features <i class="bi-chevron-right small ms-1"></i></a>
                         </div>
                     </div>
@@ -185,9 +194,9 @@
                     <div class="step-content-wrapper">
                         <span class="step-icon step-icon-soft-primary">3</span>
                         <div class="step-content">
-                            <h6 class="step-title">Smart dashboards</h6>
-                            <p class="step-text">We strive to embrace and drive change in our industry which allows us
-                                to keep our clients relevant.</p>
+                            <h6 class="step-title">Entreprises - Start up en croissance</h6>
+                            <p class="step-text">Nous assistons les entreprises et les start up dans la recherche de
+                                financement et dans la gestion de leur business</p>
                             <a class="link" href="#">Dashboards <i class="bi-chevron-right small ms-1"></i></a>
                         </div>
                     </div>
@@ -198,7 +207,7 @@
         <!-- End Step -->
 
         <!-- Features -->
-        <div class="overflow-hidden content-space-1 content-space-md-3">
+        <div id="service_bas" class="overflow-hidden content-space-1 content-space-md-3">
             <div class="position-relative">
                 <div class="container">
                     <div class="row align-items-md-center">
@@ -228,11 +237,14 @@
                         <div class="col-md-6">
                             <div class="ps-md-5 py-md-5 ps-lg-10 py-lg-10">
                                 <!-- Heading -->
-                                <div class="mb-7">
-                                    <span class="text-cap">Customize everything</span>
-                                    <h3>An enterprise plan to succeed at scale</h3>
-                                    <p>One theme for your all projects. Built on standard web technology, teams use
-                                        Space to build beautiful cross-platform hybrid apps in a fraction of the time.
+                                <div class="mb-4">
+                                    <span class="text-cap">Nos Prestations</span>
+                                    <h3>L'accompagnement des porteurs de projet</h3>
+                                    <p>Nous évaluons le projet, analysons son potentiel et, s'il est choisi pour être
+                                        incubé,
+                                        l’accompagne dans les démarches nécessaires pour le mener à la réussite. Ceci
+                                        assure le
+                                        bon amorçage du projet et inclut toutes les étapes.
                                     </p>
                                 </div>
                                 <!-- End Heading -->
@@ -242,12 +254,12 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/gen/gen005.svg")
+                                                <img src="./assets/vendor/duotone-icons/gen/gen005.svg" alt="">
                                             </span>
                                         </div>
 
-                                        <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-0">Industry-leading documentation</h6>
+                                        <div class="flex-grow-1 ms-2">
+                                            <h6 class="mb-0">Conception de l'offre</h6>
                                         </div>
                                     </div>
                                     <!-- End Info Block -->
@@ -256,12 +268,12 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/com/com007.svg")
+                                                <img src="./assets/vendor/duotone-icons/com/com007.svg" alt="">
                                             </span>
                                         </div>
 
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-0">Support for the developer community</h6>
+                                            <h6 class="mb-0">Etude du marché</h6>
                                         </div>
                                     </div>
                                     <!-- End Info Block -->
@@ -270,18 +282,18 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/cod/cod011.svg")
+                                                <img src="./assets/vendor/duotone-icons/cod/cod011.svg" alt="">
                                             </span>
                                         </div>
 
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-0">Explore the Snippets tools</h6>
+                                            <h6 class="mb-0">Redaction du business plan</h6>
                                         </div>
                                     </div>
                                     <!-- End Info Block -->
                                 </div>
 
-                                <a class="link" href="page-login.html">Get started now <i
+                                <a class="link" href="page_login.html">Get started now <i
                                         class="bi-chevron-right small ms-1"></i></a>
                             </div>
                         </div>
@@ -324,12 +336,12 @@
                         <div class="col-md-6">
                             <div class="pe-md-5 py-md-5 pe-lg-10 py-lg-10">
                                 <!-- Heading -->
-                                <div class="mb-7">
-                                    <span class="text-cap">Combine and customize</span>
-                                    <h3>Create an on-site experience your customers will love</h3>
-                                    <p>We have taken all the guess work out of building your customer experience. You
-                                        can easily create an interface that is on brand and intuitive for your customers
-                                        to use.</p>
+                                <div class="mb-4">
+                                    <span class="text-cap">Nos Prestations</span>
+                                    <h3>L'accompagnement des entreprises</h3>
+                                    <p>Nous accompagnons les entreprises dans leurs phases de croissance à travers
+                                        divers
+                                        services.</p>
                                 </div>
                                 <!-- End Heading -->
 
@@ -338,12 +350,13 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/abs/abs028.svg")
+                                                <img src="./assets/vendor/duotone-icons/abs/abs028.svg" alt="">
                                             </span>
                                         </div>
 
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-0">All-in-one</h6>
+                                            <h6 class="mb-0">Nous accompagnons aussi les
+                                                entreprises dans leur digitalisation</h6>
                                         </div>
                                     </div>
                                     <!-- End Info Block -->
@@ -352,12 +365,12 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/arr/arr034.svg")
+                                                <img src="./assets/vendor/duotone-icons/arr/arr034.svg" alt="">
                                             </span>
                                         </div>
 
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-0">Less routine – more creativity</h6>
+                                            <h6 class="mb-0">La conception de nouvelles offres</h6>
                                         </div>
                                     </div>
                                     <!-- End Info Block -->
@@ -366,12 +379,12 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/abs/abs039.svg")
+                                                <img src="./assets/vendor/duotone-icons/abs/abs039.svg" alt="">
                                             </span>
                                         </div>
 
                                         <div class="flex-grow-1 ms-3">
-                                            <h6 class="mb-0">Style your workflow how you want to fit your brand</h6>
+                                            <h6 class="mb-0">La gestion de projet</h6>
                                         </div>
                                     </div>
                                     <!-- End Info Block -->
@@ -432,7 +445,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/art/art007.svg")
+                                                <img src="./assets/vendor/duotone-icons/art/art007.svg" alt="">
                                             </span>
                                         </div>
 
@@ -446,7 +459,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/abs/abs037.svg")
+                                                <img src="./assets/vendor/duotone-icons/abs/abs037.svg" alt="">
                                             </span>
                                         </div>
 
@@ -460,7 +473,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
                                             <span class="svg-icon svg-icon-sm text-primary">
-                                                @@include("@@autopath/assets/vendor/duotone-icons/cod/cod009.svg")
+                                                <img src="./assets/vendor/duotone-icons/cod/cod009.svg" alt="">
                                             </span>
                                         </div>
 
@@ -471,7 +484,7 @@
                                     <!-- End Info Block -->
                                 </div>
 
-                                <a class="link" href="page-login.html">Get started now <i
+                                <a class="link" href="page_login.html">Get started now <i
                                         class="bi-chevron-right small ms-1"></i></a>
                             </div>
                         </div>
@@ -584,7 +597,7 @@
                     <div class="d-sm-flex align-items-sm-center">
                         <div class="flex-shrink-0 mb-3 mb-sm-0">
                             <span class="svg-icon text-primary mb-3">
-                                @@include("@@autopath/assets/vendor/duotone-icons/gen/gen022.svg")
+                                <img src="./assets/vendor/duotone-icons/gen/gen022.svg" alt="">
                             </span>
                         </div>
 
@@ -665,28 +678,520 @@
     <!-- ========== END MAIN CONTENT ========== -->
 
     <!-- ========== FOOTER ========== -->
-    @@include("@@autopath/partials/footer/main.html")
+    <footer class="bg-primary-dark border-top border-white-10">
+        <div class="container">
+            <div class="row content-space-1">
+                <div class="col-lg-3 mb-7 mb-lg-0">
+                    <!-- Logo -->
+                    <div class="mb-5">
+                        <a class="navbar-brand" href="./index.html" aria-label="Space">
+                            <img class="navbar-brand-logo" src="./assets/svg/logos/logo-white.svg"
+                                alt="Image Description">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+
+                    <span class="d-block">
+                        <label for="selectLanguage" class="form-label text-white">Choose language</label>
+                    </span>
+
+                    <!-- Button Group -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-soft-light btn-sm dropdown-toggle" id="selectLanguage"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="d-flex align-items-center">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description"
+                                    width="16" />
+                                <span>English (US)</span>
+                            </span>
+                        </button>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item d-flex align-items-center active" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/us.svg" alt="Image description"
+                                    width="16" />
+                                <span>English (US)</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/gb.svg" alt="Image description"
+                                    width="16" />
+                                <span>English (UK)</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/de.svg" alt="Image description"
+                                    width="16" />
+                                <span>Deutsch</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/dk.svg" alt="Image description"
+                                    width="16" />
+                                <span>Dansk</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/es.svg" alt="Image description"
+                                    width="16" />
+                                <span>Español</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/nl.svg" alt="Image description"
+                                    width="16" />
+                                <span>Nederlands</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/it.svg" alt="Image description"
+                                    width="16" />
+                                <span>Italiano</span>
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <img class="avatar avatar-xss avatar-circle me-2"
+                                    src="./node_modules/flag-icon-css/flags/1x1/cn.svg" alt="Image description"
+                                    width="16" />
+                                <span>中文 (繁體)</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Button Group -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-sm mb-7 mb-sm-0">
+                    <span class="text-cap text-primary-light">Resources</span>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-0">
+                        <li><a class="link-sm link-light" href="#">Blog</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-sm mb-7 mb-sm-0">
+                    <span class="text-cap text-primary-light">Company</span>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-0">
+                        <li><a class="link-sm link-light" href="#">Contacts</a></li>
+                        <li><a class="link-sm link-light" href="#">Security</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-sm">
+                    <span class="text-cap text-primary-light">Platform</span>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-0">
+                        <li><a class="link-sm link-light" href="#">Web</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+                <!-- End Col -->
+
+                <div class="col-sm">
+                    <span class="text-cap text-primary-light">Legal</span>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-5">
+                        <li><a class="link-sm link-light" href="#">Terms of use</a></li>
+                        <li><a class="link-sm link-light" href="#">Privacy policy <i
+                                    class="bi-box-arrow-up-right ms-1"></i></a></li>
+                    </ul>
+                    <!-- End List -->
+
+                    <span class="text-cap text-primary-light">Docs</span>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-0">
+                        <li><a class="link-sm link-light" href="#">Documentation</a></li>
+                        <li><a class="link-sm link-light" href="#">Snippets</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Row -->
+
+            <div class="border-top border-white-10"></div>
+
+            <div class="row align-items-md-end py-5">
+                <div class="col-md mb-3 mb-md-0">
+                    <p class="text-white mb-0">© Space. 2021 Htmlstream. All rights reserved.</p>
+                </div>
+
+                <div class="col-md d-md-flex justify-content-md-end">
+                    <!-- Socials -->
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                                <i class="bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                                <i class="bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                                <i class="bi-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-icon btn-sm btn-soft-light rounded-circle" href="#">
+                                <i class="bi-slack"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- End Socials -->
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- ========== END FOOTER ========== -->
 
     <!-- ========== SECONDARY CONTENTS ========== -->
     <!-- Sign Up -->
-    @@include("@@autopath/partials/modal/signup.html")
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <!-- Header -->
+                <div class="modal-close">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- End Header -->
+
+                <!-- Body -->
+                <div class="modal-body p-sm-5">
+                    <!-- Log in -->
+                    <div id="signupModalFormLogin" style="display: none; opacity: 0;">
+                        <!-- Heading -->
+                        <div class="text-center mb-7">
+                            <h4>Log in</h4>
+                            <p>Don't have an account yet?
+                                <a class="js-animation-link" href="javascript:;" role="button"
+                                    data-hs-show-animation-options='{
+                             "targetSelector": "#signupModalFormSignup",
+                             "groupName": "idForm"
+                           }'>Sign up here</a>
+                            </p>
+                        </div>
+                        <!-- End Heading -->
+
+                        <div class="d-grid gap-2">
+                            <a class="btn btn-white btn-lg" href="#">
+                                <span class="d-flex justify-content-center align-items-center">
+                                    <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg"
+                                        alt="Image Description">
+                                    Log in with Google
+                                </span>
+                            </a>
+
+                            <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormLoginWithEmail",
+                           "groupName": "idForm"
+                         }'>Log in with Email</a>
+                        </div>
+                    </div>
+                    <!-- End Log in -->
+
+                    <!-- Log in with Modal -->
+                    <div id="signupModalFormLoginWithEmail" style="display: none; opacity: 0;">
+                        <!-- Heading -->
+                        <div class="text-center mb-7">
+                            <h4>Log in</h4>
+                            <p>Don't have an account yet?
+                                <a class="js-animation-link" href="javascript:;" role="button"
+                                    data-hs-show-animation-options='{
+                             "targetSelector": "#signupModalFormSignup",
+                             "groupName": "idForm"
+                           }'>Sign up here</a>
+                            </p>
+                        </div>
+                        <!-- End Heading -->
+
+                        <form class="js-validate needs-validation" novalidate>
+
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <label class="form-label" for="signupModalFormLoginEmail">Your email</label>
+                                <input type="email" class="form-control form-control-lg" name="email"
+                                    id="signupModalFormLoginEmail" placeholder="email@site.com"
+                                    aria-label="email@site.com" required>
+                                <span class="invalid-feedback">Please enter a valid email address.</span>
+                            </div>
+                            <!-- End Form -->
+
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <label class="form-label" for="signupModalFormLoginPassword">Password</label>
+
+                                    <a class="js-animation-link form-label-link" href="javascript:;"
+                                        data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormResetPassword",
+                           "groupName": "idForm"
+                         }'>Forgot Password?</a>
+                                </div>
+
+                                <input type="password" class="form-control form-control-lg" name="password"
+                                    id="signupModalFormLoginPassword" placeholder="8+ characters required"
+                                    aria-label="8+ characters required" required minlength="8">
+                                <span class="invalid-feedback">Please enter a valid password.</span>
+                            </div>
+                            <!-- End Form -->
+
+                            <div class="d-grid mb-3">
+                                <button type="submit" class="btn btn-primary btn-lg">Log in</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Log in with Modal -->
+
+                    <!-- Sign up -->
+                    <div id="signupModalFormSignup">
+                        <!-- Heading -->
+                        <div class="text-center mb-7">
+                            <h4>Sign up</h4>
+                            <p>Already have an account?
+                                <a class="js-animation-link" href="javascript:;" role="button"
+                                    data-hs-show-animation-options='{
+                             "targetSelector": "#signupModalFormLogin",
+                             "groupName": "idForm"
+                           }'>Log in here</a>
+                            </p>
+                        </div>
+                        <!-- End Heading -->
+
+                        <div class="d-grid gap-3">
+                            <a class="btn btn-white btn-lg" href="#">
+                                <span class="d-flex justify-content-center align-items-center">
+                                    <img class="avatar avatar-xss me-2" src="./assets/svg/brands/google-icon.svg"
+                                        alt="Image Description">
+                                    Sign up with Google
+                                </span>
+                            </a>
+
+                            <a class="js-animation-link btn btn-primary btn-lg" href="#" data-hs-show-animation-options='{
+                           "targetSelector": "#signupModalFormSignupWithEmail",
+                           "groupName": "idForm"
+                         }'>Sign up with Email</a>
+
+                            <div class="text-center">
+                                <p class="small mb-0">By continuing you agree to our <a href="./page-terms.html">Terms
+                                        and Conditions</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Sign up -->
+
+                    <!-- Sign up with Modal -->
+                    <div id="signupModalFormSignupWithEmail" style="display: none; opacity: 0;">
+                        <!-- Heading -->
+                        <div class="text-center mb-7">
+                            <h4>Sign up</h4>
+                            <p>Already have an account?
+                                <a class="js-animation-link" href="javascript:;" role="button"
+                                    data-hs-show-animation-options='{
+                             "targetSelector": "#signupModalFormLogin",
+                             "groupName": "idForm"
+                           }'>Log in here</a>
+                            </p>
+                        </div>
+                        <!-- End Heading -->
+
+                        <form class="js-validate need-validate" novalidate enctype="multipart/form-data"
+                            action="main.py">
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <label class="form-label" for="f1-name">Nom</label>
+                                <input type="text" class="form-control form-control-lg" name="f1-name" id="f1-name"
+                                    placeholder="Votre nom" aria-label="Votre nom" required>
+                                <span class="invalid-feedback">Please enter your name.</span>
+                            </div>
+                            <!-- End Form -->
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <label class="form-label" for="f1-prenom">Prenom</label>
+                                <input type="text" class="form-control form-control-lg" name="f1-prenom" id="f1-prenom"
+                                    placeholder="Votre prenom" aria-label="Votre prenom" required>
+                                <span class="invalid-feedback">Please enter your name.</span>
+                            </div>
+                            <!-- End Form -->
+
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <label class="form-label" for="f1-ville">Ville</label>
+                                <input type="text" class="form-control form-control-lg" name="f1-ville" id="f1-ville"
+                                    placeholder="Votre ville" aria-label="Votre ville" required>
+                                <span class="invalid-feedback">Please enter your country.</span>
+                            </div>
+                            <!-- End Form -->
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <label class="form-label" for="signupModalFormSignupEmail">Your email</label>
+                                <input type="email" class="form-control form-control-lg" name="email"
+                                    id="signupModalFormSignupEmail" placeholder="email@site.com"
+                                    aria-label="email@site.com" required>
+                                <span class="invalid-feedback">Please enter a valid email address.</span>
+                            </div>
+                            <!-- End Form -->
+
+                            <!-- Form -->
+                            <div class="mb-3">
+                                <label class="form-label" for="signupModalFormSignupPassword">Password</label>
+                                <input type="password" class="form-control form-control-lg" name="password"
+                                    id="signupModalFormSignupPassword" placeholder="8+ characters required"
+                                    aria-label="8+ characters required" required>
+                                <span class="invalid-feedback">Your password is invalid. Please try again.</span>
+                            </div>
+                            <!-- End Form -->
+
+                            <!-- Form -->
+                            <div class="mb-3" data-hs-validation-validate-class>
+                                <label class="form-label" for="signupModalFormSignupConfirmPassword">Confirm
+                                    password</label>
+                                <input type="password" class="form-control form-control-lg" name="confirmPassword"
+                                    id="signupModalFormSignupConfirmPassword" placeholder="8+ characters required"
+                                    aria-label="8+ characters required" required
+                                    data-hs-validation-equal-field="#signupModalFormSignupPassword">
+                                <span class="invalid-feedback">Password does not match the confirm password.</span>
+                            </div>
+                            <!-- End Form -->
+
+                            <div class="d-grid mb-3">
+                                <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
+                            </div>
+
+                            <div class="text-center">
+                                <p class="small mb-0">By continuing you agree to our <a href="#">Terms and
+                                        Conditions</a></p>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Sign up with Modal -->
+
+                    <!-- Reset Password -->
+                    <div id="signupModalFormResetPassword" style="display: none; opacity: 0;">
+                        <!-- Heading -->
+                        <div class="text-center mb-7">
+                            <h4>Forgot password?</h4>
+                            <p>Enter the email address you used when you joined and we'll send you instructions to reset
+                                your password.</p>
+                        </div>
+                        <!-- En dHeading -->
+
+                        <form class="js-validate need-validate" novalidate enctype="multipart/form-data"
+                            action="main.py">
+                            <div class="mb-3">
+                                <!-- Form -->
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <label class="form-label" for="signupModalFormResetPasswordEmail" tabindex="0">Your
+                                        email</label>
+
+                                    <a class="js-animation-link form-label-link" href="javascript:;"
+                                        data-hs-show-animation-options='{
+                             "targetSelector": "#signupModalFormLogin",
+                             "groupName": "idForm"
+                           }'>
+                                        <i class="bi-chevron-left small me-1"></i> Back to Log in
+                                    </a>
+                                </div>
+                                <!-- End Form -->
+
+                                <!-- Form -->
+                                <div class="mb-3">
+                                    <input type="email" class="form-control form-control-lg" name="email"
+                                        id="signupModalFormResetPasswordEmail" tabindex="1"
+                                        placeholder="Enter your email address" aria-label="Enter your email address"
+                                        required>
+                                    <span class="invalid-feedback">Please enter a valid email address.</span>
+                                </div>
+                                <!-- End Form -->
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End Reset Password -->
+                </div>
+                <!-- End Body -->
+
+                <!-- Footer -->
+                <div class="modal-footer d-block text-center py-sm-5">
+                    <small class="text-cap mb-4">Trusted by the world's best teams</small>
+
+                    <div class="w-85 mx-auto">
+                        <div class="row justify-content-between">
+                            <div class="col">
+                                <img class="img-fluid" src="./assets/svg/brands/gitlab-gray.svg" alt="Logo">
+                            </div>
+                            <!-- End Col -->
+
+                            <div class="col">
+                                <img class="img-fluid" src="./assets/svg/brands/fitbit-gray.svg" alt="Logo">
+                            </div>
+                            <!-- End Col -->
+
+                            <div class="col">
+                                <img class="img-fluid" src="./assets/svg/brands/flow-xo-gray.svg" alt="Logo">
+                            </div>
+                            <!-- End Col -->
+
+                            <div class="col">
+                                <img class="img-fluid" src="./assets/svg/brands/layar-gray.svg" alt="Logo">
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Footer -->
+            </div>
+        </div>
+    </div>
+
 
     <!-- Go To -->
-    @@include("@@autopath/partials/layouts-components/go-to.html")
+    <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+     "offsetTop": 700,
+     "position": {
+       "init": {
+         "right": "2rem"
+       },
+       "show": {
+         "bottom": "2rem"
+       },
+       "hide": {
+         "bottom": "-2rem"
+       }
+     }
+   }'>
+        <i class="bi-chevron-up"></i>
+    </a>
     <!-- ========== END SECONDARY CONTENTS ========== -->
 
     <!-- JS Global Compulsory @@deleteLine:build -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- JS Implementing Plugins -->
-    <!-- bundlejs:vendor [@@autopath] -->
+    <!-- bundlejs:vendor [.] -->
     <script src="assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.js"></script>
     <script src="assets/vendor/hs-show-animation/dist/hs-show-animation.min.js"></script>
     <script src="assets/vendor/hs-go-to/dist/hs-go-to.min.js"></script>
 
     <!-- JS Space -->
-    <!-- bundlejs:theme [@@autopath] -->
+    <!-- bundlejs:theme [.] -->
     <script src="assets/js/hs.core.js"></script>
     <script src="assets/js/hs.bs-validation.js"></script>
 
@@ -723,6 +1228,9 @@
         })()
     </script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
